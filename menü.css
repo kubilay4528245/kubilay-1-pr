@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Coptic&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    display: grid;
+    grid-template-areas:"hader" "main";
+   grid-template-rows: 1fr 5fr;
+   background-image: url("mountains_front.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+header
+
+{
+   grid-area: hader;
+   border: 1px solid black;
+   display: flex;
+   justify-content: space-between;
+   padding-left: 70px;
+   padding-right: 70px;
+   align-items: center;
+
+
+}
+main
+{
+    grid-area: main;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+
+} 
+ul
+{
+    display: flex;
+    list-style: none;
+
+}
+li{
+    margin-right: 20px;
+
+}
+h3
+{
+    font-family: 'Noto Sans Coptic', sans-serif;
+    font-size: 20px;
+    
+}
+li:hover
+{
+    padding: 3px;
+    background-color: rgb(139, 8, 139);
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+}
+h4
+{
+    color: rgb(139, 8, 139);
+    font-family: 'Noto Sans Coptic', sans-serif;
+
+    font-size: 40px;
+
+}
+h1
+{
+    padding: 15px;
+    background-color: rgb(139, 8, 139) ;
+    color: aliceblue;
+    border-radius: 5px;
+   margin-top: 30px;
+   font-family: 'Noto Sans Coptic', sans-serif;
+
+}
